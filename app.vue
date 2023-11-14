@@ -19,7 +19,7 @@
           In the meantime, you can contact me via email:
         </div>
         <Button
-          label="Send me a mail"
+          label="Send me an email"
           class="font-bold px-5 py-3 p-button-raised p-button-rounded white-space-nowrap"
           @click="sendMail()"
         ></Button>
@@ -37,8 +37,6 @@ Button {
 </style>
 
 <script setup>
-import { ref } from "vue";
-
 const sendMail = () => {
   window.open("mailto: contact@jonasbeer.com");
 };
