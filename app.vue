@@ -16,12 +16,27 @@
           1-6 business years 🤝
         </div>
         <div class="text-700 text-xl mb-5">
-          In the meantime, you can contact me via email:
+          In the meantime have fun with the following links:
         </div>
         <Button
-          label="Send me an email"
-          class="font-bold px-5 py-3 p-button-raised p-button-rounded white-space-nowrap"
-          @click="sendMail()"
+            label="GitHub"
+            class="font-bold px-5 py-3 p-button-raised p-button-rounded white-space-nowrap"
+            @click="openGithub()"
+        ></Button>
+        <Button
+            label="Email"
+            class="font-bold px-5 py-3 p-button-raised p-button-rounded white-space-nowrap"
+            @click="sendMail()"
+        ></Button>
+        <Button
+            label="LinkedIn"
+            class="font-bold px-5 py-3 p-button-raised p-button-rounded white-space-nowrap"
+            @click="openLinkedIn()"
+        ></Button>
+        <Button
+            label="CV"
+            class="font-bold px-5 py-3 p-button-raised p-button-rounded white-space-nowrap"
+            @click="openCV()"
         ></Button>
       </div>
     </div>
@@ -30,14 +45,26 @@
 <style lang="scss">
 @import "primeflex/primeflex.css";
 Button {
-  margin: 0 auto;
   display: block;
   background-color: #19749f;
+  margin: auto auto 1rem;
 }
 </style>
 
 <script setup>
 const sendMail = () => {
   window.open("mailto: contact@jonasbeer.com");
+};
+
+const openLinkedIn = () => {
+  window.open("https://www.linkedin.com/in/jonas-beer-9596ba261/");
+};
+
+const openGithub = () => {
+  window.open("https://github.com/jb-cc");
+};
+
+const openCV = () => {
+  window.open("https://cv.jonasbeer.com");
 };
 </script>
