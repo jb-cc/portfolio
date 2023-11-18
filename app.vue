@@ -65,6 +65,6 @@ const openGithub = () => {
 };
 
 const openCV = () => {
-  window.open("https://cv.jonasbeer.com");
+  window.open("https://jrbeer.notion.site/Latest-CV-e622b6fde4a94b368e370f1763ea03ed?pvs=4");
 };
 </script>
