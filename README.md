@@ -10,7 +10,7 @@ This portfolio website is a personal project by Jonas Beer, showcasing my skills
 ### Built With
 
 - **Nuxt.js** 
-
+- **Vue.js**
 
 ## Contact
 
