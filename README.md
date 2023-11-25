@@ -11,9 +11,6 @@ This portfolio website is a personal project by Jonas Beer, showcasing my skills
 
 - **Nuxt.js** 
 
-### Prerequisites
-Due to the change from Node.js 18.15.0 to 20.8.0, you might need to delete the `node_modules` folder and run `npm install` again.
-
 
 ## Contact
 
